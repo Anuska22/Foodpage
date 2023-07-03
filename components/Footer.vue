@@ -188,12 +188,12 @@ const socialMedia = [
   },
   {
     label: 'Twitter',
-    link: '#',
+    link: 'https://twitter.com/night_grant',
     icon: SfIconTwitter,
   },
   {
     label: 'Instagram',
-    link: '#',
+    link: 'https://www.instagram.com/ans_qaa/',
     icon: SfIconInstagram,
   },
   {
