@@ -9,7 +9,7 @@
        <button @click="geturl(ch) " class="px-3 py-1 rounded mx-3 bg-blue-500">
         Search
         </button>
-        <div class="container grid grid-cols-4 gap-3 py-3">
+        <div class="container grid lg:grid-cols-4 sm:grid-cols-1 gap-3 py-3">
     <div v-for="(p, index) in items.meals" :key="index">
       <NuxtLink :to="`/products/${p.idMeal}`">
         <Productcard :product="p"/>  
