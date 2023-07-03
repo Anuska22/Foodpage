@@ -17,7 +17,7 @@
         </select>
       </div>
     </div>
-    <div class="container grid grid-cols-4 gap-3 py-3">
+    <div class="container grid sm:grid-cols-1 lg:grid-cols-4 gap-3 py-3">
     <div v-for="(p, index) in data.meals" :key="index">
       <NuxtLink :to="`products/${p.idMeal}`">
         <Productcard :product="p"/>  

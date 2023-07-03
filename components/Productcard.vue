@@ -37,12 +37,12 @@
         
       </p>
       <span class="block pb-2 font-bold typography-text-lg"></span>
-      <SfButton type="button" size="sm">
+      <!-- <SfButton type="button" size="sm">
         <template #prefix>
           
         </template>
         View Recipe
-      </SfButton>
+      </SfButton> -->
     </div>
   </div>
 </template>
