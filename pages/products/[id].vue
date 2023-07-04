@@ -5,7 +5,7 @@
             <img :src="meal.meals[0].strMealThumb " class="rounded" alt="" />
         </div>
       
-        <div class="col-span-3">
+        <div class="lg:col-span-3 sm:col-span-4">
             <h1 class="font-bold py-3 text-3xl">
                 {{ meal.meals[0].strMeal }}
             </h1>
