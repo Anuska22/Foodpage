@@ -23,7 +23,7 @@
     <hr />
     <div class="py-10 md:flex md:mx-auto max-w-[1536px]">
       <div v-for="{ label, icon, link, details } in contactOptions" :key="label" class="mx-auto my-4 text-center">
-        <component :is="icon" size="lg" />
+        <component :is="icon" lg:size="lg" md:size="md" sm:size="sm"/>
         <p class="py-1 my-2 font-medium typography-text-lg font-body">
           <SfLink
             variant="secondary"
